@@ -43,4 +43,18 @@ public class Customer {
     public void setMobileNo(Long mobileNo) {
         this.mobileNo = mobileNo;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", mobileNo=" + mobileNo +
+                '}';
+    }
 }
